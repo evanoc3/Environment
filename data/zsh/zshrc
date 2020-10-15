@@ -1,0 +1,30 @@
+export ZSH="$HOME/.oh-my-zsh"
+
+# Override the default ZSH Custom directory, if it exists
+ZSHDIR="$HOME/dev/Environment/data/zsh/custom"
+if [[ -d "$ZSHDIR" ]]; then
+    export ZSH_CUSTOM="$ZSHDIR"
+fi
+
+
+# Set the custom theme after the custom directory is set
+ZSH_THEME="magnoster"
+
+
+# Run Oh My Zsh configuration
+if [[ -e "$ZSH/oh-my-zsh.sh" ]]; then
+	source "$ZSH/oh-my-zsh.sh"
+fi
+
+
+# Enable plugins
+plugins=(
+	git
+	npm
+	rsync
+	node
+	python
+	pip
+	golang
+	sudo
+)

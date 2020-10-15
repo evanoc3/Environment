@@ -1,0 +1,9 @@
+cloc
+deno
+go
+mas
+python
+rsync
+sass
+syncthing
+tree
