@@ -1,9 +1,10 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Override the default ZSH Custom directory, if it exists
-ZSHDIR="$HOME/dev/Environment/data/zsh/custom"
+ZSHDIR="$HOME/Dev/Environment/data/zsh/custom"
+
 if [[ -d "$ZSHDIR" ]]; then
-    export ZSH_CUSTOM="$ZSHDIR"
+	export ZSH_CUSTOM="$ZSHDIR"
 fi
 
 
