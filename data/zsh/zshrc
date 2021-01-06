@@ -20,11 +20,5 @@ fi
 # Enable plugins
 plugins=(
 	git
-	npm
 	rsync
-	node
-	python
-	pip
-	golang
-	sudo
 )
