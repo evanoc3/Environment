@@ -17,7 +17,6 @@ alias venv="source .venv/bin/activate";
 
 ########## Golang ##########
 export GOPATH="/usr/local/go/ext";
-export GOROOT="$(brew --prefix golang)/libexec";
 if [[ ! -d "$GOPATH" ]]; then
   mkdir -p "$GOPATH" > /dev/null
 fi
@@ -33,6 +32,5 @@ export NVM_DIR="$HOME/.nvm";
 
 ########## $PATH ##########
 export PATH="$PATH:$GOPATH/bin";
-export PATH="$PATH:$GOROOT/bin";
 export PATH="$PATH:/usr/local/opt/openjdk/bin";
 export PATH="$PATH:$HOME/.cargo/bin";
