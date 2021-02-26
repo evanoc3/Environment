@@ -32,5 +32,4 @@ export NVM_DIR="$HOME/.nvm";
 
 ########## $PATH ##########
 export PATH="$PATH:$GOPATH/bin";
-export PATH="$PATH:/usr/local/opt/openjdk/bin";
 export PATH="$PATH:$HOME/.cargo/bin";
