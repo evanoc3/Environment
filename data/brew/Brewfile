@@ -1,9 +1,12 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "sass/sass"
 brew "cloc"
 brew "deno"
+brew "openjdk@8"
+brew "glassfish"
 brew "go"
 brew "openjdk"
 brew "sqlite"
@@ -11,6 +14,7 @@ brew "python@3.9"
 brew "rsync"
 brew "rust"
 brew "sass/sass/sass"
+cask "chromium"
 cask "cleanmymac", args: { appdir: "~/Applications" }
 cask "clipy"
 cask "figma"
@@ -19,10 +23,10 @@ cask "gimp", args: { appdir: "~/Applications" }
 cask "github", args: { appdir: "~/Applications" }
 cask "handbrake", args: { appdir: "~/Applications" }
 cask "imageoptim", args: { appdir: "~/Applications" }
+cask "intellij-idea"
 cask "iterm2", args: { appdir: "~/Applications" }
 cask "macmediakeyforwarder", args: { appdir: "~/Applications" }
 cask "microsoft-excel", args: { appdir: "~/Applications" }
-cask "microsoft-powerpoint", args: { appdir: "~/Applications" }
 cask "microsoft-teams"
 cask "microsoft-word", args: { appdir: "~/Applications" }
 cask "notion"
@@ -34,3 +38,4 @@ cask "steam", args: { appdir: "~/Applications" }
 cask "transmission", args: { appdir: "~/Applications" }
 cask "visual-studio-code"
 cask "vlc", args: { appdir: "~/Applications" }
+cask "vmware-fusion"

@@ -33,3 +33,10 @@ export NVM_DIR="$HOME/.nvm";
 ########## $PATH ##########
 export PATH="$PATH:$GOPATH/bin";
 export PATH="$PATH:$HOME/.cargo/bin";
+
+
+########## Glassfish Server ##########
+if [[ -e "/usr/local/opt/glassfish/libexec" ]]; then
+  export GLASSFISH_HOME="/usr/local/opt/glassfish/libexec";
+  export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)";
+fi
