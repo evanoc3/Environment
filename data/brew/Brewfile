@@ -8,6 +8,7 @@ brew "deno"
 brew "openjdk@8"
 brew "glassfish"
 brew "go"
+brew "mas"
 brew "openjdk"
 brew "sqlite"
 brew "python@3.9"
@@ -39,3 +40,12 @@ cask "transmission", args: { appdir: "~/Applications" }
 cask "visual-studio-code"
 cask "vlc", args: { appdir: "~/Applications" }
 cask "vmware-fusion"
+mas "1Password 7", id: 1333542190
+mas "Accelerate", id: 1459809092
+mas "Adblock Plus", id: 1432731683
+mas "DuckDuckGo Privacy Essentials", id: 1482920575
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Spark", id: 1176895641
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
