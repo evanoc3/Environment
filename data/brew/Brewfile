@@ -36,6 +36,7 @@ cask "robo-3t"
 cask "sequel-pro", args: { appdir: "~/Applications" }
 cask "spotify", args: { appdir: "~/Applications" }
 cask "steam", args: { appdir: "~/Applications" }
+cask "texpad"
 cask "transmission", args: { appdir: "~/Applications" }
 cask "visual-studio-code"
 cask "vlc", args: { appdir: "~/Applications" }
