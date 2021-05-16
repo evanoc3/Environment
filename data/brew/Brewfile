@@ -1,3 +1,4 @@
+tap "dart-lang/dart"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -5,11 +6,10 @@ tap "homebrew/core"
 tap "sass/sass"
 brew "cloc"
 brew "deno"
-brew "openjdk@8"
-brew "glassfish"
 brew "go"
 brew "mas"
 brew "openjdk"
+brew "openjdk@8"
 brew "sqlite"
 brew "python@3.9"
 brew "rsync"
@@ -27,16 +27,16 @@ cask "imageoptim", args: { appdir: "~/Applications" }
 cask "intellij-idea"
 cask "iterm2", args: { appdir: "~/Applications" }
 cask "macmediakeyforwarder", args: { appdir: "~/Applications" }
+cask "microsoft-auto-update"
 cask "microsoft-excel", args: { appdir: "~/Applications" }
 cask "microsoft-teams"
-cask "microsoft-word", args: { appdir: "~/Applications" }
+cask "microsoft-word"
 cask "notion"
 cask "openemu", args: { appdir: "~/Applications" }
 cask "robo-3t"
 cask "sequel-pro", args: { appdir: "~/Applications" }
 cask "spotify", args: { appdir: "~/Applications" }
 cask "steam", args: { appdir: "~/Applications" }
-cask "texpad"
 cask "transmission", args: { appdir: "~/Applications" }
 cask "visual-studio-code"
 cask "vlc", args: { appdir: "~/Applications" }
@@ -45,8 +45,8 @@ mas "1Password 7", id: 1333542190
 mas "Accelerate", id: 1459809092
 mas "Adblock Plus", id: 1432731683
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Save to Pocket", id: 1477385213
 mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Xcode", id: 497799835
