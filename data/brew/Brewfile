@@ -22,9 +22,7 @@ cask "figma"
 cask "firefox-developer-edition"
 cask "gimp", args: { appdir: "~/Applications" }
 cask "github", args: { appdir: "~/Applications" }
-cask "handbrake", args: { appdir: "~/Applications" }
 cask "imageoptim", args: { appdir: "~/Applications" }
-cask "intellij-idea"
 cask "iterm2", args: { appdir: "~/Applications" }
 cask "macmediakeyforwarder", args: { appdir: "~/Applications" }
 cask "microsoft-auto-update"
@@ -40,7 +38,6 @@ cask "steam", args: { appdir: "~/Applications" }
 cask "transmission", args: { appdir: "~/Applications" }
 cask "visual-studio-code"
 cask "vlc", args: { appdir: "~/Applications" }
-cask "vmware-fusion"
 mas "1Password 7", id: 1333542190
 mas "Accelerate", id: 1459809092
 mas "Adblock Plus", id: 1432731683
