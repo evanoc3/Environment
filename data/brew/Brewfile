@@ -8,6 +8,7 @@ brew "cloc"
 brew "deno"
 brew "go"
 brew "mas"
+brew "nmap"
 brew "openjdk"
 brew "openjdk@8"
 brew "sqlite"
@@ -20,7 +21,6 @@ cask "cleanmymac", args: { appdir: "~/Applications" }
 cask "clipy"
 cask "figma"
 cask "firefox-developer-edition"
-cask "gimp", args: { appdir: "~/Applications" }
 cask "github", args: { appdir: "~/Applications" }
 cask "iina"
 cask "imageoptim", args: { appdir: "~/Applications" }
@@ -33,12 +33,12 @@ cask "microsoft-teams"
 cask "microsoft-word"
 cask "notion"
 cask "openemu", args: { appdir: "~/Applications" }
-cask "robo-3t"
 cask "sequel-pro", args: { appdir: "~/Applications" }
 cask "spotify", args: { appdir: "~/Applications" }
 cask "steam", args: { appdir: "~/Applications" }
 cask "transmission", args: { appdir: "~/Applications" }
 cask "visual-studio-code"
+cask "vnc-viewer"
 mas "1Password 7", id: 1333542190
 mas "Accelerate", id: 1459809092
 mas "Adblock Plus", id: 1432731683
